@@ -37,6 +37,8 @@ cls
 
 pause
 
+:: ABRIR O CRIADOR DE PONTO DE RESTAURACAO WINDOWS
+
 :: Procedimento 01
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides" /v "1921033356" /t REG_DWORD /d "0" /f
 
